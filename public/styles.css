@@ -1,0 +1,88 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #2c3e50;
+}
+
+button {
+	background-color: #2ecc71;
+	border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+h1 {
+	color: #333;
+	text-align: center;
+}
+
+h3 {
+	color: #333;
+}
+
+.quote {
+	background: #f5f7f9;
+	border-bottom: 1px solid #d8dee9;
+	color: #34495e;
+	padding: 10px 12px;
+	vertical-align: text-botton;
+	border-left: 4px solid #69c;
+	list-style-type: none;
+	width: 85%;
+}
+
+#wrap {
+	width: 700px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	margin-left: 2.5%;	
+}
+
+.left {
+	text-align: center;
+	width: 350px;
+	background-color: #f5f7f9;
+	height: 140px;
+	float: left;
+	padding: 0px 12px 0px 12px;
+}
+
+.right {
+	text-align: center;
+	width: 320px;
+	background-color: #f5f7f9;
+	height: 140px;
+	float: right;
+	padding 0px 0px 0px 12px;
+}
+
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+
+.quote {
+	margin-top: 0.5em;
+}
+
+.quote > span:first-child {
+	font-weight: bold
+}
+
+.quote > span:first-child:after {
+	content:':'
+}

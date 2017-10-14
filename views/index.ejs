@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="UTF-8">
+ 	<title>The Office Quote Database</title>
+ 	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>The Office Quote Database</h1>
+	<ul class="quotes">
+		<% for(var i=0; i<quotes.length; i++) {%>
+			<li class="quote">
+				<span><%= quotes[i].name %></span>
+				<span><%= quotes[i].quote %></span>
+			</li>
+		<% } %>
+	</ul>
+	<form action="/quotes" method="POST">
+	    <input type="text" placeholder="name" name="name">
+	    <input type="text" placeholder="quote" name="quote">
+	    <button type="submit">Submit</button>
+	</form>
+	<div id="wrap">
+		<div class="left">
+			<p>Replace the last quote written by Michael Scott with a quote written by Dwight Schrute.</p>
+			<button id="update"> Replace </button>
+		</div>
+		<div class="right">
+			<p>Delete the first quote written by Michael Scott from The Office Database.</p>
+			<button id="delete"> Delete </button>
+		</div>
+	<script src="main.js"></script>
+</body>
+</html>
