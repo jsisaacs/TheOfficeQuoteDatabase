@@ -4,7 +4,8 @@ This is a simple web app that allows the user to create, read, update, and delet
 
 ![Project Image](https://i.imgur.com/3HXkkaZ.png)
 
-**[Demo](http://45.55.155.79:3000)**
+## Demo
+[Here](http://45.55.155.79:3000)
 
 ## Built With
 - [Express](https://expressjs.com)
